@@ -7,7 +7,7 @@ This repository is the code implementation of EventRPG, which offers:
 ## Citation
 ```
 @inproceedings{sun2024eventrpg,
-  title={EventRPG: Event Data Augmentation with Relevance Propagation Guidance},
+  title={Event{RPG}: Event Data Augmentation with Relevance Propagation Guidance},
   author={Sun, Mingyuan and Zhang, Donghao and Ge, Zongyuan and Wang, Jiaxu and Li, Jia and Fang, Zheng and Xu, Renjing},
   booktitle={International Conference on Learning Representations},
   year={2024},
