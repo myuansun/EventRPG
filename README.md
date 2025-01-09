@@ -4,16 +4,6 @@ This repository is the code implementation of EventRPG, which offers:
 
 1. A saliency map & CAM visualization tool for Spiking Neural Networks (SNNs).
 2. An effective data augmentation method for event-based datasets on both Artificial Neural Networks (ANNs) and Spiking Neural Networks (SNNs).
-## Citation
-```
-@inproceedings{sun2024eventrpg,
-  title={Event{RPG}: Event Data Augmentation with Relevance Propagation Guidance},
-  author={Sun, Mingyuan and Zhang, Donghao and Ge, Zongyuan and Wang, Jiaxu and Li, Jia and Fang, Zheng and Xu, Renjing},
-  booktitle={International Conference on Learning Representations},
-  year={2024},
-  url={https://openreview.net/forum?id=i7LCsDMcZ4}
-}
-```
 ## Installation
 ```bash
 conda env create -f eventrpg.yaml
@@ -55,10 +45,23 @@ To utilize our augmentation approach for training models on event-based datasets
     N-Caltech101 and N-Cars datasets can be found [here](https://github.com/uzh-rpg/rpg_event_representation_learning).
 
     SL-Animals dataset can be found [here](https://github.com/AlbertoSabater/EventTransformer).
+
     
     N-Imagenet can be found [here](https://github.com/82magnolia/n_imagenet).
 
     CIFAR10-DVS and DVS-Gesture can be directly downloaded using [Spikingjelly](https://github.com/fangwei123456/spikingjelly).
-2. For single GPU training, run SNN and ANN experiments through ``snn_train.py`` and ``train.py``, respectively. 
+3. For single GPU training, run SNN and ANN experiments through ``snn_train.py`` and ``train.py``, respectively. 
 
     For distributed training on multi-GPU, run SNN and ANN experiments through ``snn_train_distributed.py`` and ``train_distributed.py``, respectively.
+
+## Citation
+If you find our repository useful, please consider citing us as
+```
+@inproceedings{sun2024eventrpg,
+  title={Event{RPG}: Event Data Augmentation with Relevance Propagation Guidance},
+  author={Sun, Mingyuan and Zhang, Donghao and Ge, Zongyuan and Wang, Jiaxu and Li, Jia and Fang, Zheng and Xu, Renjing},
+  booktitle={International Conference on Learning Representations},
+  year={2024},
+  url={https://openreview.net/forum?id=i7LCsDMcZ4}
+}
+```
